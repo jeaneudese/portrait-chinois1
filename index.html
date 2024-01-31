@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Mon portrait chinois</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <button><a href="#"><img src="img/fleche.png" alt="remonter en haut de la page" class="fleche">
+  </a></button>
+
+  <h1 class="titre">Mon portrait chinois</h1>
+
+  <section id="resultats">
+    
+  </section>
+
+  <form>
+   
+   <h2> À votre tour !!</h2>
+    <br>
+    <label for="analogie"> Si j'étais ... <span class="star-required"> *</span></label>
+    <br>
+    <input type="text" id="analogie" name="analogie" placeholder="ex:un animal, une couleur..."  required>
+    <br>
+    <label for="valeurAnalogie"> Je serais ...<span class="star-required"> *</span></label>
+    <br>
+    <input type="text" id="valeurAnalogie" name="valeurAnalogie" placeholder="ex: un oiseau, le blanc..." required>
+    <br>
+    <label for="mail">Votre adresse mail<span class="star-required"> *</span></label> 
+    <br>
+    <input type="email" id="mail" name="mail"
+    placeholder="jean.eudes@gmail.com" required>
+    <br>
+    <label for="desc">Description</label>
+    <br>
+    <textarea name="desc" id="desc" cols="30" rows="10" placeholder="pour pouvoir voler"></textarea>
+    <br>
+    <label for="image">Image</label>
+    <br>
+    <input type="url" id="image" name="image" placeholder="sous forme d'url">
+    <br>
+    <input type="button" id="envoie" value="Envoyer ">
+    <div id="messageApresEnvoi"></div>
+    <br>
+
+    <h2> Si j'étais <span id="analogieSuggeree"></span>, je serais <span id="valeurAnalogieSuggeree"></span>
+    </h2>
+    <br>
+    <h3><span id="descriptionSuggeree"></span></h3>
+    <span id="imageSuggeree"></span>
+    
+  </form>
+
+  <div class="volet v-invisible mention">
+    
+    <h2>MENTIONS LEGALES </h2>
+    <p>Législation relative à la propriété intellectuelle et aux données à caractère personnel. <br>
+      Réalisation: Ines DERRI <br>
+      Contact: ines.derri@edu.univ-effeil.fr <br>
+      Herbergement: IUT Marne-la-Vallée <br> 
+      2 rue Albert Einstein, Champs-sur-Marne 77 420 <br>
+      Photo réaliser par IA <br>
+        Emeraude:'Emerald stone with background dark' <br>
+        Citron vert: 'Lime slices all over the screen green'<br>
+        Caméléon: 'Green chameleon background green'<br>
+        cactus: 'Green cactus with needles'<br>
+        Aurore boréale:'Aurora boréalis green lots of green'<br> 
+
+    </p>
+  </div>
+<br>
+<br>
+<br>
+<br>
+  <script src="DATA2.js"></script>
+  <script src="script2.js"></script>
+
+</body>
+
+</html>
